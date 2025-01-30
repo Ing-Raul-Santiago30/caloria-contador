@@ -65,6 +65,13 @@ function App() {
                     dispatch={dispatch} // Pasamos el dispatch para manejar acciones en la lista
                 />
             </section>
+
+            {/* Footer */}
+            <footer className="bg-gray-900 text-white fixed bottom-0 left-0 w-full py-4 mt-10">
+                <div className="max-w-4xl mx-auto text-center">
+                    <p>&copy; 2025 Contador de Calorías. @Ing Raul Santgiago | Todos los derechos reservados.</p>
+                </div>
+            </footer>
         </>
     )
 }
